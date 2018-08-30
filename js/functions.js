@@ -3663,7 +3663,7 @@ var SEMICOLON = SEMICOLON || {};
 
 		init: function(){
 			console.log("documentOnLoad")
-			responsiveClasses();
+			SEMICOLON.initialize.responsiveClasses();
 			SEMICOLON.slider.captionPosition();
 			SEMICOLON.slider.swiperSliderMenu(true);
 			SEMICOLON.slider.revolutionSliderMenu(true);
