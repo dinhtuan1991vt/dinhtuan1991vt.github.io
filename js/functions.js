@@ -1318,6 +1318,7 @@ var SEMICOLON = SEMICOLON || {};
 			var noOfNewClasses = newClassesArray.length;
 
 			if( noOfNewClasses > 0 ) {
+				console.log("sticky")
 				var i = 0;
 				for( i=0; i<noOfNewClasses; i++ ) {
 					if( newClassesArray[i] == 'not-dark' ) {
@@ -1341,6 +1342,7 @@ var SEMICOLON = SEMICOLON || {};
 				var noOfNewClasses = newClassesArray.length;
 
 				if( noOfNewClasses > 0 ) {
+					console.log("res")
 					var i = 0;
 					for( i=0; i<noOfNewClasses; i++ ) {
 						if( newClassesArray[i] == 'not-dark' ) {
