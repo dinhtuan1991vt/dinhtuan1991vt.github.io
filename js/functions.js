@@ -1337,6 +1337,7 @@ var SEMICOLON = SEMICOLON || {};
 		},
 
 		responsiveMenuClass: function(){
+			console.log("xxxx")
 			if( $body.hasClass('device-sm') || $body.hasClass('device-xs') || $body.hasClass('device-md') ){
 				if( responsiveMenuClasses ) { var newClassesArray = responsiveMenuClasses.split(/ +/); } else { var newClassesArray = ''; }
 				var noOfNewClasses = newClassesArray.length;
