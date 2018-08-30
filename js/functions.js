@@ -3591,6 +3591,7 @@ var SEMICOLON = SEMICOLON || {};
 	SEMICOLON.documentOnReady = {
 
 		init: function(){
+			console.log("documentOnReady")
 			SEMICOLON.initialize.init();
 			SEMICOLON.header.init();
 			if( $slider.length > 0 || $sliderElement.length > 0 ) { SEMICOLON.slider.init(); }
@@ -3661,6 +3662,7 @@ var SEMICOLON = SEMICOLON || {};
 	SEMICOLON.documentOnLoad = {
 
 		init: function(){
+			console.log("documentOnLoad")
 			SEMICOLON.slider.captionPosition();
 			SEMICOLON.slider.swiperSliderMenu(true);
 			SEMICOLON.slider.revolutionSliderMenu(true);
